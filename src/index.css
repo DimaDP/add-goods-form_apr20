@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+
+  height: 100vh;
+}
+
+.goods {
+  margin: 0;
+
+  padding-top: 20px;
+  border-right: 2px solid plum;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form__control {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form__input {
+  margin-left: 10px;
+}
